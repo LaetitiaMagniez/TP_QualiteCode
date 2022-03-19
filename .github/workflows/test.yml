@@ -10,5 +10,5 @@ jobs:
           php-version: '8.1'
       - name: Check out repository code
         uses: actions/checkout@v2
-      - run: test/main.php
+      - run: php test/main.php
 
