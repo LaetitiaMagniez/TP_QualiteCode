@@ -7,8 +7,9 @@ jobs:
       - name: Setup PHP with PECL extension
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'
+          php-version: '8.0'
       - name: Check out repository code
         uses: actions/checkout@v2
-      - run: php test/main.php
+      - run: curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
+      - run: php phpcs.phar --standard=PSR12 src
 
