@@ -1,1 +1,3 @@
-.idea/
+/.idea/
+/phpcs.phar
+/phpcbf.phar
