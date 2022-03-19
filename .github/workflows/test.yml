@@ -8,5 +8,5 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
-      - run: php ${{ github.workspace }}/test/main.php
+      - run: ls ${{ github.workspace }}
 
