@@ -1,0 +1,7 @@
+name: test Action
+on: [push]
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ça marche"
