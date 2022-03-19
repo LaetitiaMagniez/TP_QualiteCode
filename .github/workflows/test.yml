@@ -8,5 +8,5 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
-        run: php test/main.php
+      - run: php test/main.php
 
