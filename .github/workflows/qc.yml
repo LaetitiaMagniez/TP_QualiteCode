@@ -1,4 +1,4 @@
-name: test Action
+name: Qualite Code Action
 on: [push]
 jobs:
   demo:
@@ -11,5 +11,5 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - run: curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
-      - run: php phpcs.phar --standard=PSR12 src
+      - run: php phpcs.phar --standard=${{ github.repository }}/.github/workflows/Symfony src
 
