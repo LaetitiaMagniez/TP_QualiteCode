@@ -3,8 +3,8 @@
       "EstValide": []
     },
     "age": {
-      "Min": [
-        5
+      "InferieurA": [
+        18
       ]
     }
   }
