@@ -1,4 +1,7 @@
 {
+  "contrainte": {
+    "EstValide": []
+  },
   "prenom": {
     "Min": [
       2
