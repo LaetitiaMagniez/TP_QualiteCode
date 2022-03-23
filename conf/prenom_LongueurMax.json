@@ -1,0 +1,10 @@
+{
+  "contrainte": {
+    "EstValide": []
+  },
+  "prenom": {
+    "LongueurMax": [
+      4
+    ]
+  }
+}
