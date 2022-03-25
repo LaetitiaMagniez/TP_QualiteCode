@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Implementation de la contrainte vérifiant que le formulaire est valide
  *
@@ -6,6 +7,7 @@
  */
 
 namespace UPJV\Validator;
+
 /**
  * Class estValide
  */
