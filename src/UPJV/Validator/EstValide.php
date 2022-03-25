@@ -15,6 +15,7 @@ class EstValide implements ValidatorInterface
  * Function build
  *
  * @param array $param
+ *
  * @return object
  */
     public function build(array $param): object // build
@@ -26,6 +27,7 @@ class EstValide implements ValidatorInterface
  * Function check
  *
  * @param $input
+ *
  * @return bool
  */
     public function check($input): bool //check
