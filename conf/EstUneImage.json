@@ -1,0 +1,10 @@
+{
+  "contrainte": {
+    "EstValide": []
+  },
+  "pièce_jointe": {
+    "EstUneImage": [
+      true
+    ]
+  }
+}
