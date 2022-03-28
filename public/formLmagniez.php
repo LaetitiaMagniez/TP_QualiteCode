@@ -7,7 +7,7 @@
 <body>
     <form action="src/../EstUneImage.php" method="post">
         <input type="hidden" name="contrainte" value="Laëtitia_EstUneImage">
-        <<form>
+        <form>
              <label>Pièce Jointe</label>
              <input type="image" name="piece_jointe" />
              <button value="Envoyer"></button>
