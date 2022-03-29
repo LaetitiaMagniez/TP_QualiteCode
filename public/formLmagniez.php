@@ -5,7 +5,7 @@
     <title>Formulaire</title>
 </head>
 <body>
-    <form action="src/../EstUneImage.php" method="post">
+    <form action="../traite.php" method="post">
         <input type="hidden" name="contrainte" value="Laëtitia_EstUneImage">
         <form>
              <label>Pièce Jointe</label>
