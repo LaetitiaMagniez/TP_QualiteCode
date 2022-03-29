@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Vérifie que la taille de la chaine est egale à 2 caractères
+ * Vérifie que la taille de la chaine est egale à 7 caractères
  */
 
 namespace UPJV\Validator;
