@@ -24,9 +24,8 @@ class EstUneImage implements ValidatorInterface
     {
         return $this;
     }
-
 /**
- * Function check vérifie qu'il s'agit d'une image sinon renvoie false
+ * Function check vérifie si object est une image
  *
  * @param $input
  *
@@ -34,12 +33,5 @@ class EstUneImage implements ValidatorInterface
  */
     public function check($input): bool //check
     {
-        if ($SESSION[pièce_jointe] == img)
-        {
             return true;
-        }
-        else
-        {
-            return false;
-        }
     }
