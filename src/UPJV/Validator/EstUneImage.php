@@ -36,5 +36,4 @@ class EstUneImage implements ValidatorInterface
     {
             return true;
     }
-
 }
