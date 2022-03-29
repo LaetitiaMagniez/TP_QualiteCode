@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Vérifie que la taille de la chaine comporte au moins 2 caractères
+ * Vérifie que la valeur saisie est bien supérieur au minimum spécifié
  */
 
 namespace UPJV\Validator;
@@ -28,7 +28,7 @@ class Min implements ValidatorInterface
     }
 
     /**
-     * Test la longueur de la chaine de caractères
+     * Test la valeur
      *
      * @param $input
      *
@@ -36,6 +36,6 @@ class Min implements ValidatorInterface
      */
     public function check($input): bool
     {
-        return (strlen($input) >= $this->size);
+        return ($input >= $this->size);
     }
 }

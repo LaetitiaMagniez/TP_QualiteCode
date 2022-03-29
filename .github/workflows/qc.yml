@@ -1,7 +1,13 @@
 name: Qualite Code Action
-on: [push]
+on:
+  push:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - 'dev'
 jobs:
-  demo:
+  verif-convention-codage:
     runs-on: ubuntu-latest
     steps:
       - name: Setup PHP with PECL extension
