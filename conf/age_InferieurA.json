@@ -1,0 +1,10 @@
+{
+    "contrainte": {
+      "EstValide": []
+    },
+    "age": {
+      "InferieurA": [
+        18
+      ]
+    }
+  }
